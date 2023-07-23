@@ -51,7 +51,10 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
 }
-
+.nav-bar .fa-bars {
+    display: none;
+    font-size: 35px;
+}
 section {
     padding: 20px;
 }
@@ -71,4 +74,180 @@ section .blog-box .buttons p {
     display: flex;
     align-items: center;
     column-gap: 10px;
+}
+
+footer {
+    height: max-content;
+    background-color: #061C29;
+    color: #fff;
+    
+}
+footer .footer-head {
+    width: 100%;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-head img {
+    width: 90px;
+    height: 90px;
+}
+footer .footer-content {
+    display: flex;    
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer .footer-content .div1 .text p {
+    margin: 0;    
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+footer .footer-content .div1 .icons {
+    display: flex;
+    column-gap: 15px;    
+    margin-top: 20px;
+}
+footer .footer-content .div1 .icons i{
+    font-size: 30px;
+}
+footer .footer-content .div2 div p {
+    margin: 0;
+}
+footer .footer-content .div2 div{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+footer .footer-content .div4 .link {
+    display: flex;
+
+    flex-direction: column;
+}
+footer .footer-content .div4 .link a {
+    text-decoration: none;
+}
+footer .footer-content div h3 {
+    font-size: 20px !important;
+    letter-spacing: 2px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+}
+.footer1 .box > div{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 1018px) {
+    .footer-content {
+        flex-wrap: wrap;
+        padding: 20px;
+        height: auto;
+        background-color: #061C29;
+    }
+    .footer-content div {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+
+}
+@media only screen and (max-width: 719px) {
+    section .blog-box  {
+        flex-direction: column;
+        align-items: center;
+    }
+    section .blog-box  .img {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 635px) {
+    .nav-bar {
+        justify-content: space-between;
+        padding: 5px 20px;
+    }
+    .nav-bar ul  {
+        display: none;
+    }
+    
+    .nav-bar .fa-bars {
+        display: block;
+        color: #fff;
+    } 
+    .offcanvas .offcanvas-title {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .offcanvas ul {
+        height: 45%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .offcanvas ul li {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    .offcanvas ul li i {
+        font-size: 25px;
+        display: inline-flex;
+        width: 40px;
+    }
+    .offcanvas ul li a {
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .offcanvas .banner {
+        width: max-content;
+        background-color: #27374D;
+        color: #fff;
+        padding: 10px 20px;
+        margin: 0 auto;
+        border-radius: 20px;
+        letter-spacing: 1.5px;
+
+    }
+    .offcanvas .image {
+        text-align: center;
+        padding: 20px;
+    }
+    .offcanvas img {
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .section2 {
+        height: max-content;
+    }
+    .section2 .div1 {
+        flex-direction: column;
+        height: max-content;
+    }
+    .section2 .div2 {
+        flex-direction: column-reverse;
+        height: max-content;
+    }
+    footer {
+        height: max-content;
+
+    }
+    footer .footer-content{
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        padding-left: 50px;
+    }
+    footer .footer-content div {
+        width: max-content;
+        width: 100%;
+    }
 }
