@@ -401,9 +401,9 @@ body {
 .testimonails .child  .star-rating {
     height: 30px;
     width:100px;
-    border: 1px solid gray;
     padding: 5px;
     border-radius: 5px;
+    
 }
 /* testimonails */
 footer {
@@ -569,16 +569,8 @@ footer .footer-content .div4 .link a {
         height: max-content;
 
     }
-    footer .footer-content{
-        flex-direction: column;
-        align-items: center;
-        row-gap: 20px;
-        justify-content: center;
 
-    }
-    footer .footer-content div {
-        width: max-content;
-    }
+
     footer .footer-content{
         align-items: center;
         flex-wrap: wrap;
@@ -591,3 +583,7 @@ footer .footer-content .div4 .link a {
     }
 }
 
+
+.nav-bar > a {
+    text-decoration: none;
+}

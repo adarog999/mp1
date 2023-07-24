@@ -143,6 +143,7 @@ html {
 .option .first_div .title .reviews .card2 span {
 
 }
+
  .option .first_div .title h1 {
     font-size: 20px;
     font-weight: 600;
@@ -242,6 +243,10 @@ html {
 }
 .option  .div3 .user i {
     font-size: 27px;
+}
+.option  .div3 h1 {
+    color: black !important;
+    border: 2px solid black !important;
 }
 /* section1 */
 
@@ -431,3 +436,7 @@ footer .footer-content .div4 .link a {
     }
 }
 
+
+.nav-bar > a {
+    text-decoration: none;
+}

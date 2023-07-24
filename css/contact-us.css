@@ -257,3 +257,7 @@ footer .footer-content div h3 {
     }
 }
 
+
+.nav-bar > a {
+    text-decoration: none;
+}
