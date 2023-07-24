@@ -338,7 +338,8 @@ body {
     margin-top: 20px;
 }
 .section3 .service-container .section3-c-div div {
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     box-shadow: none;
 }
 /*  */
@@ -583,7 +584,13 @@ footer .footer-content .div4 .link a {
     }
 }
 
+@media only screen and (max-width: 435px) {
+    .section1 .div1  .btns .btn2 {
+        margin-top: 10px;
+    }
+}
 
-.nav-bar > a {
+
+nav a {
     text-decoration: none;
 }

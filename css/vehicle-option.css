@@ -140,9 +140,6 @@ html {
     margin: 0;
     letter-spacing: 2px; 
 }
-.option .first_div .title .reviews .card2 span {
-
-}
 
  .option .first_div .title h1 {
     font-size: 20px;
@@ -322,9 +319,7 @@ footer .footer-content .div4 .link a {
         width: 50%;
         margin-top: 10px;
     }
-    .footer-content .div2 {
 
-    }
 
 }
 @media only screen and (max-width: 940px) {
